@@ -1,5 +1,7 @@
 # plain-php-rest
 
+It is very "sportan" list of PHP functions for creating API services.
+
 ## db() example:
 
 ````php
