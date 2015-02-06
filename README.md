@@ -1,6 +1,6 @@
 # Plain PHP API
 
-It is very "sportan" list of PHP functions for creating API services.
+It is very "sportan" list of PHP functions for creating API services that using MySQL as data base.
 
 ## db()
 
