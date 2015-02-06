@@ -56,6 +56,7 @@ function db() {
 
 		$db = new PDO($config['dsn'], $config['user'], $config['password']);
 		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		$db->setAttribute(PDO::ATTR_DEFAULT_FETCH_MODE, PDO::FETCH_ASSOC);
 		$db->query("SET time_zone = '". DB_TIMEZINE ."'");
 		$db->exec("set names utf8");
 	}
