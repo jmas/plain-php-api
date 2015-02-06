@@ -11,7 +11,7 @@ $sql = 'SELECT * FROM user';
 
 $sth = db()->prepare($sql);
 
-f ($sth->execute()) {
+if ($sth->execute()) {
 	$response['result'] = $sth->fetchAll();
 }
 ````
