@@ -4,6 +4,8 @@ It is very "sportan" list of PHP functions for creating API services.
 
 ## db()
 
+Get current PDO connection. DB settings is stored in config.php file.
+
 ````php
 $sql = 'SELECT * FROM user';
 
@@ -16,6 +18,8 @@ f ($sth->execute()) {
 
 ## config($key=null)
 
+Get config values for specific key. Config values is stored in config.php file. For local enviroment you can use config.local.php.
+
 ````php
 $dbConfig = config('db');
 $allConfigs = config();
@@ -23,6 +27,8 @@ $allConfigs = config();
 
 ## currentPath()
 
+Get current path for requested URL. Eg. for URL *http://localhost/index.php/api* path is *api*.
+
 ````php
-$path = currentPath(); // eg. for URL http://localhost/index.php/api path is 'api'
+$path = currentPath();
 ````
