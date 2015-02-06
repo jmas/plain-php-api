@@ -27,7 +27,7 @@ $allConfigs = config();
 
 ## currentPath()
 
-Get current path for requested URL. Eg. for URL **http://localhost/index.php/api** currentPath() will be is **api**.
+Get current path for requested URL. Eg. for URL **http://localhost/index.php/api** currentPath() will be **api**.
 
 ````php
 $path = currentPath();
