@@ -1,4 +1,4 @@
-# plain-php-rest
+# Plain PHP API
 
 It is very "sportan" list of PHP functions for creating API services.
 
