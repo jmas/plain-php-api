@@ -2,6 +2,6 @@
 
 ## db() example:
 
-'''php
+````php
 test
-'''
+````
