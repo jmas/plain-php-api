@@ -2,7 +2,7 @@
 
 It is very "sportan" list of PHP functions for creating API services.
 
-## db() example:
+## db()
 
 ````php
 $sql = 'SELECT * FROM user';
